@@ -1,6 +1,7 @@
 import Card from "./Card";
 import ColorBox from "./ColorBox";
 import Counter from "./Counter";
+import Example from "./Example";
 import Footer from "./Footer";
 import Header from "./Header";
 import ListItem from "./ListItem";
@@ -12,6 +13,7 @@ function App() {
     <ColorBox/>
     <Counter/>
     <Header/>
+    <Example/>
     <ListItem/>
     <Card/>
     <Student name="Ram" age={30} isStudent="true"/>

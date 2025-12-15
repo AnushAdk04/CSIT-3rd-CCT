@@ -1,25 +1,7 @@
-import Card from "./Card";
-import ColorBox from "./ColorBox";
-import Counter from "./Counter";
-import Example from "./Example";
-import Example1 from "./Example1";
-import Footer from "./Footer";
-import Header from "./Header";
-import ListItem from "./ListItem";
-import Student from "./Student";
-
 function App() {
   return (
     <>
-      <Example1 />
-      <ColorBox />
-      <Counter />
-      <Header />
-      <Example />
-      <ListItem />
-      <Card />
-      <Student name="Ram" age={30} isStudent="true" />
-      <Footer />
+    <div className="bg-red-600 m-4 p-2 text-white font-bold font-serif text-5xl h-56 flex items-center justify-center cursor-pointer hover:bg-red-900">Example</div>
     </>
   );
 }

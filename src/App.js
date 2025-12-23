@@ -1,4 +1,5 @@
 import Bmi from "./Bmi";
+import Joke from "./Joke";
 import Login from "./Login";
 import Temperature from "./Temperature";
 
@@ -8,6 +9,7 @@ function App() {
     <Login/>
     <Bmi/>
     <Temperature/>
+    <Joke/>
     </>
   );
 }

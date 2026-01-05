@@ -5,6 +5,7 @@ import Joke from "./Joke"
 import Temperature from "./Temperature"
 import Header from "./Header"
 import Footer from "./Footer"
+import Map from "./Map"
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/bmi" element={<Bmi/>}/>
         <Route path="/joke" element={<Joke/>}/>
         <Route path="/temperature" element={<Temperature/>}/>
+        <Route path="/map" element={<Map/>}/>
 
       </Routes>
 

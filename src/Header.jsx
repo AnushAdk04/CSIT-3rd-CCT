@@ -31,6 +31,13 @@ function Header() {
         >
           Temperature
         </Link>
+
+         <Link
+          to="/map"
+          className="text-white font-medium hover:text-yellow-300 transition"
+        >
+          Map
+        </Link>
       </div>
     </nav>
   );
